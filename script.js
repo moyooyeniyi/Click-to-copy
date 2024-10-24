@@ -13,7 +13,7 @@ document.execCommand("copy")
 setTimeout(() =>{
   btn.textContent = "Copied!"
   
-}, 3000);
+}, 300);
 }
 
 btn.addEventListener("click", copyText)
